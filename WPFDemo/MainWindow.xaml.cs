@@ -20,4 +20,9 @@ public partial class MainWindow : Window
     {
         InitializeComponent();
     }
+
+    private void SubmitButton_Click(object sender, RoutedEventArgs e)
+    {
+        MessageBox.Show($"Hello, {FirstNameText.Text}" );
+    }
 }
